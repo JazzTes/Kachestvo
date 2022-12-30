@@ -8,7 +8,7 @@ pipeline {
     stages {
         stage("First step") {
             steps {
-                ph 'cd /D E:\S HITACHI\4\Kachestvo\l2\chromedriver'
+                ph 'cd /D E:\\S HITACHI\\4\\Kachestvo\\l2\\chromedriver'
             }
         }
         stage("Second step") {

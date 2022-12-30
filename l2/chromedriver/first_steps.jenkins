@@ -2,9 +2,6 @@
 properties([disableConcurrentBuilds()])
 
 pipeline {
-    agent { 
-        label 'main'
-        }
     stages {
         stage("First step") {
             steps {
